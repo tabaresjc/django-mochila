@@ -59,7 +59,7 @@ WSGI_APPLICATION = 'mochila.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+    'ENGINE': 'django.db.backends.mysql',
     'NAME': 'mochila_dev',
     'USER': 'root',
     'PASSWORD': 'admin123456',
