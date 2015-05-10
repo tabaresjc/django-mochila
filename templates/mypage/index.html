@@ -1,17 +1,17 @@
 {% extends "mypage/layout.html" %}
-
-{% block title %}MyPage{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "MyPage" %}{% endblock %}
 
 {% block content %}
 <!--main content start-->
 <section class="main-content-wrapper">
     <div class="pageheader">
-        <h1>Dashboard</h1>
+        <h1>{% trans "Dashboard" %}</h1>
         <p class="description">Welcome to NEUBOARD Responsive Admin Theme</p>
         <div class="breadcrumb-wrapper hidden-xs">
             <span class="label">You are here:</span>
             <ol class="breadcrumb">
-                <li class="active">Dashboard</li>
+                <li class="active">{% trans "Dashboard" %}</li>
             </ol>
         </div>
     </div>

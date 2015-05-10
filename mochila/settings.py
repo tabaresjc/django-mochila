@@ -10,11 +10,9 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
-from django.contrib import messages
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
@@ -28,12 +26,6 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
-
-MESSAGE_TAGS = {
-    messages.SUCCESS: 'alert-success success',
-    messages.WARNING: 'alert-warning warning',
-    messages.ERROR: 'alert-danger error'
-}
 
 # Application definition
 
