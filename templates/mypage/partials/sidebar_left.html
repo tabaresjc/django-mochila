@@ -1,0 +1,11 @@
+{% load i18n %}
+<nav>
+    <h5 class="sidebar-header">{% trans "Navigation" %}</h5>
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active">
+            <a href="{% url 'mypage:index' %}" title="Dashboard"><i class="fa  fa-fw fa-tachometer"></i>{% trans "Dashboard" %}</a>
+        </li>
+    </ul>
+</nav>
+<h5 class="sidebar-header">{% trans "Account Settings" %}</h5>
+<div class="setting-list"></div>
